@@ -1,0 +1,23 @@
+[build]
+  command = ""
+  publish = "."
+
+[[redirects]]
+  from = "/about-us/"
+  to = "/trayectoria/"
+  status = 301
+
+[[redirects]]
+  from = "/services/"
+  to = "/neurocirugia/"
+  status = 301
+
+[[redirects]]
+  from = "/testimonial/"
+  to = "/investigacion/"
+  status = 301
+
+[[redirects]]
+  from = "/contact-us/"
+  to = "/contacto/"
+  status = 301
