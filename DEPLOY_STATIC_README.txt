@@ -1,6 +1,6 @@
-NEUROTHENIER STATIC DEPLOY v10 HOMEFRAME
+NEUROTHENIER STATIC DEPLOY v11 MAILTO + SEO REDIRECTS
 
-Este paquete contiene la web ya compilada.
+Este paquete contiene la web completa ya compilada.
 No requiere npm install ni npm run build.
 
 Netlify:
@@ -8,8 +8,8 @@ Netlify:
 - Build command: vacío
 - Publish directory: .
 
-Incluye ajuste específico del marco de la imagen principal del Home en desktop:
-- visual más pequeño,
-- marco más elegante,
-- tarjeta inferior más discreta,
-- más espacio para el bloque de texto.
+Incluye:
+- todos los botones/contactos convertidos a mailto,
+- botón de colaboraciones a colaboraciones@neurothenier.com,
+- último parche SEO de redirecciones 301 para neurocirujanolleida.com,
+- todos los arreglos visuales previos.

@@ -1,25 +1,61 @@
-# Domain-level 301 redirects for the old domain.
-# Keep these rules first. They prevent the old domain from serving mirrored content.
+# NeuroThenier SEO redirect patch
+# Old domain must never serve mirrored content.
+# Upload this file to the repository root.
 
+# Root domain redirects
+https://neurocirujanolleida.com/ https://neurothenier.com/ 301!
+https://www.neurocirujanolleida.com/ https://neurothenier.com/ 301!
+
+# Canonical NeuroThenier pages if requested through the old domain
+https://neurocirujanolleida.com/trayectoria/ https://neurothenier.com/trayectoria/ 301!
+https://www.neurocirujanolleida.com/trayectoria/ https://neurothenier.com/trayectoria/ 301!
+
+https://neurocirujanolleida.com/neurocirugia/ https://neurothenier.com/neurocirugia/ 301!
+https://www.neurocirujanolleida.com/neurocirugia/ https://neurothenier.com/neurocirugia/ 301!
+
+https://neurocirujanolleida.com/investigacion/ https://neurothenier.com/investigacion/ 301!
+https://www.neurocirujanolleida.com/investigacion/ https://neurothenier.com/investigacion/ 301!
+
+https://neurocirujanolleida.com/libros/ https://neurothenier.com/libros/ 301!
+https://www.neurocirujanolleida.com/libros/ https://neurothenier.com/libros/ 301!
+
+https://neurocirujanolleida.com/contacto/ https://neurothenier.com/contacto/ 301!
+https://www.neurocirujanolleida.com/contacto/ https://neurothenier.com/contacto/ 301!
+
+https://neurocirujanolleida.com/privacidad/ https://neurothenier.com/privacidad/ 301!
+https://www.neurocirujanolleida.com/privacidad/ https://neurothenier.com/privacidad/ 301!
+
+# Legacy WordPress/static routes from the old site
 https://neurocirujanolleida.com/about-us/ https://neurothenier.com/trayectoria/ 301!
 https://www.neurocirujanolleida.com/about-us/ https://neurothenier.com/trayectoria/ 301!
+https://neurocirujanolleida.com/about-us https://neurothenier.com/trayectoria/ 301!
+https://www.neurocirujanolleida.com/about-us https://neurothenier.com/trayectoria/ 301!
 
 https://neurocirujanolleida.com/services/ https://neurothenier.com/neurocirugia/ 301!
 https://www.neurocirujanolleida.com/services/ https://neurothenier.com/neurocirugia/ 301!
+https://neurocirujanolleida.com/services https://neurothenier.com/neurocirugia/ 301!
+https://www.neurocirujanolleida.com/services https://neurothenier.com/neurocirugia/ 301!
 
 https://neurocirujanolleida.com/testimonial/ https://neurothenier.com/investigacion/ 301!
 https://www.neurocirujanolleida.com/testimonial/ https://neurothenier.com/investigacion/ 301!
+https://neurocirujanolleida.com/testimonial https://neurothenier.com/investigacion/ 301!
+https://www.neurocirujanolleida.com/testimonial https://neurothenier.com/investigacion/ 301!
 
 https://neurocirujanolleida.com/contact-us/ https://neurothenier.com/contacto/ 301!
 https://www.neurocirujanolleida.com/contact-us/ https://neurothenier.com/contacto/ 301!
+https://neurocirujanolleida.com/contact-us https://neurothenier.com/contacto/ 301!
+https://www.neurocirujanolleida.com/contact-us https://neurothenier.com/contacto/ 301!
 
+# Catch-all for anything else on old domain
 https://neurocirujanolleida.com/* https://neurothenier.com/:splat 301!
 https://www.neurocirujanolleida.com/* https://neurothenier.com/:splat 301!
 
-# Legacy internal paths on the primary domain.
-# These are below the domain redirects so they do not trap the old domain.
-
+# Legacy internal paths on the primary domain
 /about-us/ /trayectoria/ 301!
+/about-us /trayectoria/ 301!
 /services/ /neurocirugia/ 301!
+/services /neurocirugia/ 301!
 /testimonial/ /investigacion/ 301!
+/testimonial /investigacion/ 301!
 /contact-us/ /contacto/ 301!
+/contact-us /contacto/ 301!

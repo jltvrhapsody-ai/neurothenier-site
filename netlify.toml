@@ -2,8 +2,92 @@
   command = ""
   publish = "."
 
-# Domain-level 301 redirects for the old domain.
-# Keep these rules first to prevent mirrored content under neurocirujanolleida.com.
+# NeuroThenier SEO redirect patch
+# Domain-specific rules go first to prevent old-domain mirror content.
+
+[[redirects]]
+  from = "https://neurocirujanolleida.com/"
+  to = "https://neurothenier.com/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.neurocirujanolleida.com/"
+  to = "https://neurothenier.com/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://neurocirujanolleida.com/trayectoria/"
+  to = "https://neurothenier.com/trayectoria/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.neurocirujanolleida.com/trayectoria/"
+  to = "https://neurothenier.com/trayectoria/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://neurocirujanolleida.com/neurocirugia/"
+  to = "https://neurothenier.com/neurocirugia/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.neurocirujanolleida.com/neurocirugia/"
+  to = "https://neurothenier.com/neurocirugia/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://neurocirujanolleida.com/investigacion/"
+  to = "https://neurothenier.com/investigacion/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.neurocirujanolleida.com/investigacion/"
+  to = "https://neurothenier.com/investigacion/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://neurocirujanolleida.com/libros/"
+  to = "https://neurothenier.com/libros/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.neurocirujanolleida.com/libros/"
+  to = "https://neurothenier.com/libros/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://neurocirujanolleida.com/contacto/"
+  to = "https://neurothenier.com/contacto/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.neurocirujanolleida.com/contacto/"
+  to = "https://neurothenier.com/contacto/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://neurocirujanolleida.com/privacidad/"
+  to = "https://neurothenier.com/privacidad/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.neurocirujanolleida.com/privacidad/"
+  to = "https://neurothenier.com/privacidad/"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "https://neurocirujanolleida.com/about-us/"
