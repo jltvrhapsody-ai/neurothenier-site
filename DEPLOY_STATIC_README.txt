@@ -1,4 +1,4 @@
-NEUROTHENIER STATIC DEPLOY v8 DESKTOP IMAGES
+NEUROTHENIER STATIC DEPLOY v9 WIDE DESKTOP
 
 Este paquete contiene la web ya compilada.
 No requiere npm install ni npm run build.
@@ -9,7 +9,7 @@ Netlify:
 - Publish directory: .
 
 Incluye:
-- correcciones móviles previas,
-- privacy + colaboraciones,
-- reducción de imágenes en escritorio aproximadamente al 70%,
-- más espacio para texto en bloques con imagen lateral.
+- rediseño de imágenes base en formato ancho 16:9 para desktop,
+- paneles de imagen más anchos y menos altos,
+- más espacio útil para texto,
+- mantiene el comportamiento móvil y todos los parches previos.
