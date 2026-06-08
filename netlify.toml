@@ -2,22 +2,89 @@
   command = ""
   publish = "."
 
+# Redirecciones antiguas del sitio anterior hacia las rutas nuevas
 [[redirects]]
   from = "/about-us/"
   to = "/trayectoria/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/services/"
   to = "/neurocirugia/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/testimonial/"
   to = "/investigacion/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/contact-us/"
   to = "/contacto/"
   status = 301
+  force = true
+
+# Redirecciones específicas desde neurocirujanolleida.com hacia NeuroThenier
+[[redirects]]
+  from = "https://neurocirujanolleida.com/about-us/"
+  to = "https://neurothenier.com/trayectoria/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.neurocirujanolleida.com/about-us/"
+  to = "https://neurothenier.com/trayectoria/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://neurocirujanolleida.com/services/"
+  to = "https://neurothenier.com/neurocirugia/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.neurocirujanolleida.com/services/"
+  to = "https://neurothenier.com/neurocirugia/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://neurocirujanolleida.com/testimonial/"
+  to = "https://neurothenier.com/investigacion/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.neurocirujanolleida.com/testimonial/"
+  to = "https://neurothenier.com/investigacion/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://neurocirujanolleida.com/contact-us/"
+  to = "https://neurothenier.com/contacto/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.neurocirujanolleida.com/contact-us/"
+  to = "https://neurothenier.com/contacto/"
+  status = 301
+  force = true
+
+# Redirección global del dominio viejo al dominio principal
+[[redirects]]
+  from = "https://neurocirujanolleida.com/*"
+  to = "https://neurothenier.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.neurocirujanolleida.com/*"
+  to = "https://neurothenier.com/:splat"
+  status = 301
+  force = true
