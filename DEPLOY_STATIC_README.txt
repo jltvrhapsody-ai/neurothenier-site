@@ -1,7 +1,6 @@
-NEUROTHENIER STATIC DEPLOY v11 MAILTO + SEO REDIRECTS
+NEUROTHENIER STATIC DEPLOY v12 CTA MAILTO + SEO
 
-Este paquete contiene la web completa ya compilada.
-No requiere npm install ni npm run build.
+Web completa ya compilada para despliegue estático.
 
 Netlify:
 - Base directory: vacío
@@ -9,7 +8,7 @@ Netlify:
 - Publish directory: .
 
 Incluye:
-- todos los botones/contactos convertidos a mailto,
-- botón de colaboraciones a colaboraciones@neurothenier.com,
-- último parche SEO de redirecciones 301 para neurocirujanolleida.com,
-- todos los arreglos visuales previos.
+- último parche SEO 301 para neurocirujanolleida.com,
+- botones Contactar/Contacto/Contacto editorial a mailto:contacto@neurothenier.com,
+- botones Colaboraciones/Escribir a mailto:colaboraciones@neurothenier.com,
+- corrección CSS de los banners CTA inferiores: el elemento decorativo ya no bloquea los clics.

@@ -582,3 +582,11 @@
     gap:48px !important;
   }
 }
+
+
+/* v12 CTA click fix:
+   The decorative pseudo-element in .cta must not intercept clicks.
+   Keep CTA content above the decoration. */
+.cta:after{pointer-events:none!important}
+.cta>*{position:relative;z-index:1}
+.cta a,.cta .btn{pointer-events:auto!important;position:relative;z-index:2}
