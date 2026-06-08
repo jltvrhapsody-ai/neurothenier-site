@@ -58,3 +58,228 @@
 @media(max-width:520px){
   .research-profile-links{grid-template-columns:1fr}
 }
+
+
+/* v6 mobile polish: compact images and visible sticky mobile bar */
+.site-header{
+  box-shadow:0 8px 28px rgba(16,24,40,.06);
+}
+@media(max-width:960px){
+  .site-header{
+    position:sticky;
+    top:0;
+    z-index:100;
+    background:rgba(255,255,255,.96);
+    backdrop-filter:blur(16px);
+  }
+  .nav{
+    min-height:62px;
+    height:auto;
+    padding:10px 0 8px;
+    display:grid;
+    grid-template-columns:1fr;
+    gap:10px;
+  }
+  .brand{
+    justify-content:center;
+    gap:10px;
+  }
+  .brand img{
+    width:34px;
+    height:34px;
+  }
+  .brand span{
+    font-size:1.05rem;
+    line-height:1.05;
+    text-align:left;
+  }
+  .brand small{
+    font-size:.58rem;
+    letter-spacing:.06em;
+    white-space:nowrap;
+  }
+  .nav-links{
+    display:flex;
+    width:100%;
+    overflow-x:auto;
+    gap:8px;
+    padding:0 2px 4px;
+    scrollbar-width:none;
+    -webkit-overflow-scrolling:touch;
+    justify-content:flex-start;
+  }
+  .nav-links::-webkit-scrollbar{display:none}
+  .nav-links a{
+    flex:0 0 auto;
+    min-height:34px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    border:1px solid var(--line);
+    border-radius:999px;
+    background:#fff;
+    padding:7px 12px;
+    font-size:.78rem;
+    font-weight:820;
+    color:var(--navy);
+    white-space:nowrap;
+    box-shadow:0 8px 18px rgba(16,24,40,.045);
+  }
+  .nav-links .btn.secondary{
+    min-height:34px;
+    padding:7px 12px;
+    box-shadow:0 8px 18px rgba(16,24,40,.045);
+    background:var(--navy);
+    color:#fff;
+    border-color:var(--navy);
+  }
+
+  .hero{
+    padding:34px 0 28px;
+  }
+  .hero-grid{
+    gap:24px;
+  }
+  .hero-copy{
+    text-align:left;
+  }
+  .hero-actions{
+    margin-top:20px;
+  }
+  .motto{
+    font-size:.96rem;
+    padding:14px 16px;
+  }
+  .stats{
+    gap:9px;
+    margin-top:22px;
+  }
+  .stat{
+    padding:13px 14px;
+  }
+  .stat strong{
+    font-size:1.12rem;
+  }
+
+  /* Compact all image panels on mobile; no more huge vertical blocks */
+  .hero-photo.compact-photo,
+  .media,
+  .media-portrait,
+  .media-landscape,
+  .media-research,
+  .trajectory-photo,
+  .media-book{
+    width:min(100%, 340px);
+    max-width:340px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:24px;
+  }
+  .hero-photo.compact-photo{
+    padding:9px;
+  }
+  .hero-photo.compact-photo img{
+    aspect-ratio:1/1;
+    object-fit:cover;
+    object-position:center 22%;
+    border-radius:18px;
+  }
+  .media img,
+  .media-portrait img,
+  .media-landscape img,
+  .media-research img,
+  .trajectory-photo img{
+    aspect-ratio:4/3 !important;
+    width:100%;
+    height:auto;
+    object-fit:cover;
+    border-radius:0;
+  }
+  .media-portrait img{
+    object-position:center 26%;
+  }
+  .media-research img{
+    object-position:center 25%;
+  }
+  .trajectory-photo img{
+    object-position:center 38%;
+  }
+  .media-book{
+    padding:12px;
+  }
+  .book-art{
+    max-width:240px;
+  }
+  .book.book-wide,
+  .reverse-book.book-wide{
+    gap:24px;
+  }
+
+  .split,
+  .split.split-image-right,
+  .research-image-breathe,
+  .research-split-wide,
+  .trajectory-split{
+    gap:28px;
+  }
+  .section{
+    padding:52px 0;
+  }
+  .section-tight{
+    padding:38px 0;
+  }
+  .card{
+    padding:22px;
+    border-radius:22px;
+  }
+  .page-hero h1{
+    font-size:clamp(2.25rem,12vw,3.8rem);
+  }
+  .page-hero .lead,
+  .lead{
+    font-size:1.02rem;
+  }
+  .quote-block{
+    padding:26px 22px;
+  }
+  .quote-block .quote{
+    font-size:1.32rem;
+  }
+  .cta{
+    padding:24px;
+    border-radius:26px;
+    text-align:left;
+  }
+  .publication{
+    padding:15px 0;
+  }
+}
+
+@media(max-width:520px){
+  .container{
+    width:min(var(--max),calc(100% - 24px));
+  }
+  .hero-photo.compact-photo,
+  .media,
+  .media-portrait,
+  .media-landscape,
+  .media-research,
+  .trajectory-photo,
+  .media-book{
+    width:min(100%, 300px);
+    max-width:300px;
+  }
+  .book-art{
+    max-width:210px;
+  }
+  .brand span{
+    font-size:1rem;
+  }
+  .brand small{
+    font-size:.54rem;
+  }
+  .nav-links a{
+    font-size:.74rem;
+    padding:7px 10px;
+  }
+}
