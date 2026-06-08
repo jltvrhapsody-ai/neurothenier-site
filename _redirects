@@ -1,0 +1,25 @@
+# Domain-level 301 redirects for the old domain.
+# Keep these rules first. They prevent the old domain from serving mirrored content.
+
+https://neurocirujanolleida.com/about-us/ https://neurothenier.com/trayectoria/ 301!
+https://www.neurocirujanolleida.com/about-us/ https://neurothenier.com/trayectoria/ 301!
+
+https://neurocirujanolleida.com/services/ https://neurothenier.com/neurocirugia/ 301!
+https://www.neurocirujanolleida.com/services/ https://neurothenier.com/neurocirugia/ 301!
+
+https://neurocirujanolleida.com/testimonial/ https://neurothenier.com/investigacion/ 301!
+https://www.neurocirujanolleida.com/testimonial/ https://neurothenier.com/investigacion/ 301!
+
+https://neurocirujanolleida.com/contact-us/ https://neurothenier.com/contacto/ 301!
+https://www.neurocirujanolleida.com/contact-us/ https://neurothenier.com/contacto/ 301!
+
+https://neurocirujanolleida.com/* https://neurothenier.com/:splat 301!
+https://www.neurocirujanolleida.com/* https://neurothenier.com/:splat 301!
+
+# Legacy internal paths on the primary domain.
+# These are below the domain redirects so they do not trap the old domain.
+
+/about-us/ /trayectoria/ 301!
+/services/ /neurocirugia/ 301!
+/testimonial/ /investigacion/ 301!
+/contact-us/ /contacto/ 301!

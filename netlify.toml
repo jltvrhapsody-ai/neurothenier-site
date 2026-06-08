@@ -2,32 +2,9 @@
   command = ""
   publish = "."
 
-# Redirecciones antiguas del sitio anterior hacia las rutas nuevas
-[[redirects]]
-  from = "/about-us/"
-  to = "/trayectoria/"
-  status = 301
-  force = true
+# Domain-level 301 redirects for the old domain.
+# Keep these rules first to prevent mirrored content under neurocirujanolleida.com.
 
-[[redirects]]
-  from = "/services/"
-  to = "/neurocirugia/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/testimonial/"
-  to = "/investigacion/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/contact-us/"
-  to = "/contacto/"
-  status = 301
-  force = true
-
-# Redirecciones específicas desde neurocirujanolleida.com hacia NeuroThenier
 [[redirects]]
   from = "https://neurocirujanolleida.com/about-us/"
   to = "https://neurothenier.com/trayectoria/"
@@ -76,7 +53,6 @@
   status = 301
   force = true
 
-# Redirección global del dominio viejo al dominio principal
 [[redirects]]
   from = "https://neurocirujanolleida.com/*"
   to = "https://neurothenier.com/:splat"
@@ -86,5 +62,31 @@
 [[redirects]]
   from = "https://www.neurocirujanolleida.com/*"
   to = "https://neurothenier.com/:splat"
+  status = 301
+  force = true
+
+# Legacy internal paths on the primary domain.
+
+[[redirects]]
+  from = "/about-us/"
+  to = "/trayectoria/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services/"
+  to = "/neurocirugia/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/testimonial/"
+  to = "/investigacion/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/contact-us/"
+  to = "/contacto/"
   status = 301
   force = true
