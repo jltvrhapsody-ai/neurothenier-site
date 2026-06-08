@@ -8,4 +8,4 @@ Netlify:
 - Build command: vacío
 - Publish directory: .
 
-No subas package.json si quieres evitar npm.
+Sube estos archivos directamente a la raíz del repo.
