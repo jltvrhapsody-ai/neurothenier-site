@@ -14,3 +14,47 @@
 .unir-institution{max-width:150px;height:70px}
 @media(max-width:1180px){.affiliation-grid.six-up{grid-template-columns:repeat(3,minmax(0,1fr))}.research-split-wide,.trajectory-split{grid-template-columns:1fr}}
 @media(max-width:640px){.affiliation-grid.six-up{grid-template-columns:1fr}.media-research img,.media-landscape img{aspect-ratio:4/3}.institution-card{min-height:160px}}
+
+
+/* v5 investigation and trajectory refinements */
+.external-profiles-card{display:flex;flex-direction:column;justify-content:center}
+.research-profile-links{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:10px;
+  align-items:stretch;
+}
+.research-profile-links .badge{
+  justify-content:center;
+  text-align:center;
+  min-height:42px;
+  white-space:nowrap;
+}
+.research-image-breathe{
+  grid-template-columns:.9fr 1.25fr;
+  align-items:center;
+}
+.media-research img{
+  aspect-ratio:16/9 !important;
+  width:100%;
+  object-fit:cover;
+  object-position:center 28%;
+}
+.research-split-wide .logo-strip{
+  grid-template-columns:repeat(3,1fr);
+}
+.trajectory-split{
+  grid-template-columns:.95fr 1.2fr;
+}
+.trajectory-photo img{
+  aspect-ratio:16/9 !important;
+  object-position:center 38%;
+}
+@media(max-width:960px){
+  .research-image-breathe,.trajectory-split{grid-template-columns:1fr}
+  .research-profile-links{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .research-split-wide .logo-strip{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:520px){
+  .research-profile-links{grid-template-columns:1fr}
+}
