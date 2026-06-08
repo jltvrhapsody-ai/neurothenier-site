@@ -512,3 +512,73 @@
     gap:48px !important;
   }
 }
+
+
+/* v10 desktop homepage hero frame refinement */
+@media(min-width:961px){
+  .hero-grid{
+    grid-template-columns:1.22fr .78fr !important;
+    gap:44px !important;
+    align-items:center !important;
+  }
+
+  .hero-copy{
+    max-width:760px;
+  }
+
+  .hero-photo.compact-photo{
+    max-width:340px !important;
+    width:100% !important;
+    margin-left:auto !important;
+    padding:10px !important;
+    border-radius:30px !important;
+    border:1px solid #dbe4ef !important;
+    background:linear-gradient(180deg,#ffffff 0%,#f7faff 100%) !important;
+    box-shadow:0 14px 36px rgba(16,24,40,.07) !important;
+  }
+
+  .hero-photo.compact-photo img{
+    aspect-ratio:4/5 !important;
+    width:100% !important;
+    height:auto !important;
+    object-fit:contain !important;
+    object-position:center 18% !important;
+    background:#fff !important;
+    border-radius:22px !important;
+  }
+
+  .signature-card{
+    left:50% !important;
+    right:auto !important;
+    bottom:14px !important;
+    transform:translateX(-50%) !important;
+    width:calc(100% - 36px) !important;
+    max-width:270px !important;
+    padding:12px 14px !important;
+    border-radius:18px !important;
+    text-align:center !important;
+    box-shadow:0 12px 28px rgba(16,24,40,.10) !important;
+    background:rgba(255,255,255,.94) !important;
+    backdrop-filter:blur(10px);
+  }
+
+  .signature-card strong{
+    font-size:.92rem !important;
+    line-height:1.15 !important;
+  }
+
+  .signature-card span{
+    font-size:.76rem !important;
+    line-height:1.25 !important;
+  }
+}
+
+@media(min-width:1200px){
+  .hero-photo.compact-photo{
+    max-width:320px !important;
+  }
+  .hero-grid{
+    grid-template-columns:1.26fr .74fr !important;
+    gap:48px !important;
+  }
+}
