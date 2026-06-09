@@ -607,3 +607,17 @@
   .patient-actions{display:grid;grid-template-columns:1fr}
   .tech-tags span{width:100%;justify-content:center}
 }
+
+
+/* v14 pacientes image frame refinement */
+.patients-photo{max-width:440px;margin-left:auto}
+.patients-photo img{aspect-ratio:4/3 !important;object-fit:cover;object-position:center center !important;display:block}
+@media(min-width:961px){
+  .split.split-image-right .patients-photo{max-width:420px}
+}
+@media(min-width:1200px){
+  .split.split-image-right .patients-photo{max-width:400px}
+}
+@media(max-width:520px){
+  .patients-photo{width:min(100%,300px)!important;max-width:300px!important;margin-inline:auto}
+}

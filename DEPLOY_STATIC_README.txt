@@ -15,3 +15,7 @@ Incluye:
 - corrección canonical de /contacto/,
 - parche SEO 301 para neurocirujanolleida.com,
 - corrección CSS de banners CTA clicables.
+
+- actualización v14: nueva fotografía real en /pacientes/ con marco más pequeño y ratio 4:3 optimizado para desktop y móvil.
+
+- actualización v15: la fotografía de /pacientes/ se ha sustituido por la versión corregida manualmente por el usuario, manteniendo el marco pequeño y ratio 4:3.
