@@ -621,3 +621,10 @@
 @media(max-width:520px){
   .patients-photo{width:min(100%,300px)!important;max-width:300px!important;margin-inline:auto}
 }
+
+/* v16 menu + conceptual neurocirugia */
+.card .text-link{display:inline-flex;margin-top:8px;color:var(--blue);font-weight:900;text-decoration:none}
+.card .text-link:hover{text-decoration:underline}
+@media(max-width:960px){
+  .nav-links a[href="/neurocirugia/"]{display:none}
+}

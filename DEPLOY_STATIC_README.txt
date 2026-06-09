@@ -19,3 +19,5 @@ Incluye:
 - actualización v14: nueva fotografía real en /pacientes/ con marco más pequeño y ratio 4:3 optimizado para desktop y móvil.
 
 - actualización v15: la fotografía de /pacientes/ se ha sustituido por la versión corregida manualmente por el usuario, manteniendo el marco pequeño y ratio 4:3.
+
+- actualización v16: menú principal sin Neurocirugía, Pacientes como sección clínica principal, home con enlaces en Neurocirugía/Neuroimagen IA/Medicina Lean, y /neurocirugia/ convertida en página conceptual.
