@@ -46,6 +46,15 @@ https://www.neurocirujanolleida.com/contact-us/ https://neurothenier.com/contact
 https://neurocirujanolleida.com/contact-us https://neurothenier.com/contacto/ 301!
 https://www.neurocirujanolleida.com/contact-us https://neurothenier.com/contacto/ 301!
 
+
+# Pacientes and second-opinion routes
+https://neurocirujanolleida.com/pacientes/ https://neurothenier.com/pacientes/ 301!
+https://www.neurocirujanolleida.com/pacientes/ https://neurothenier.com/pacientes/ 301!
+https://neurocirujanolleida.com/segunda-opinion/ https://neurothenier.com/pacientes/ 301!
+https://www.neurocirujanolleida.com/segunda-opinion/ https://neurothenier.com/pacientes/ 301!
+/segunda-opinion/ /pacientes/ 301!
+/segunda-opinion /pacientes/ 301!
+
 # Catch-all for anything else on old domain
 https://neurocirujanolleida.com/* https://neurothenier.com/:splat 301!
 https://www.neurocirujanolleida.com/* https://neurothenier.com/:splat 301!

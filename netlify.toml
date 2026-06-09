@@ -137,6 +137,31 @@
   status = 301
   force = true
 
+
+[[redirects]]
+  from = "https://neurocirujanolleida.com/pacientes/"
+  to = "https://neurothenier.com/pacientes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.neurocirujanolleida.com/pacientes/"
+  to = "https://neurothenier.com/pacientes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://neurocirujanolleida.com/segunda-opinion/"
+  to = "https://neurothenier.com/pacientes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.neurocirujanolleida.com/segunda-opinion/"
+  to = "https://neurothenier.com/pacientes/"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "https://neurocirujanolleida.com/*"
   to = "https://neurothenier.com/:splat"
@@ -172,5 +197,17 @@
 [[redirects]]
   from = "/contact-us/"
   to = "/contacto/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/segunda-opinion/"
+  to = "/pacientes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/segunda-opinion"
+  to = "/pacientes/"
   status = 301
   force = true

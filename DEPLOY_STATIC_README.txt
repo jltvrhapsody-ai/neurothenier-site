@@ -1,6 +1,6 @@
-NEUROTHENIER STATIC DEPLOY v12 CTA MAILTO + SEO
+NEUROTHENIER STATIC DEPLOY v13 PACIENTES
 
-Web completa ya compilada para despliegue estático.
+Web completa ya compilada para despliegue estático en Netlify/GitHub.
 
 Netlify:
 - Base directory: vacío
@@ -8,7 +8,10 @@ Netlify:
 - Publish directory: .
 
 Incluye:
-- último parche SEO 301 para neurocirujanolleida.com,
-- botones Contactar/Contacto/Contacto editorial a mailto:contacto@neurothenier.com,
-- botones Colaboraciones/Escribir a mailto:colaboraciones@neurothenier.com,
-- corrección CSS de los banners CTA inferiores: el elemento decorativo ya no bloquea los clics.
+- nueva sección /pacientes/ con cartera clínica y segunda opinión,
+- email segundaopinion@neurothenier.com,
+- navegación actualizada con Pacientes,
+- sitemap actualizado,
+- corrección canonical de /contacto/,
+- parche SEO 301 para neurocirujanolleida.com,
+- corrección CSS de banners CTA clicables.
